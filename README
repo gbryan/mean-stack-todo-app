@@ -1,1 +1,10 @@
-This is a very simple to-do app based on Chris Sevilleja's tutorial (http://scotch.io/tutorials/javascript/node-and-angular-to-do-app-controllers-and-services).
+This is a very simple to-do app based on Chris Sevilleja's tutorial (http://scotch.io/tutorials/javascript/node-and-angular-to-do-app-controllers-and-services). My version differs from the tutorial version in several ways, most notably marking tasks as "completed" when they are checked (and moving them to a different section of the page) rather than deleting them from the database.
+
+Though the app is very basic, it's my first attempt at using MEAN stack technologies, aside from very minimal AngularJS and MongoDB. Working on this app has given me an introduction to the following:
+- Mongoose and MongoDB
+- Express framework
+- AngularJS
+- Node.js
+- Bootstrap 3
+- AngularUI
+- Vagrant
