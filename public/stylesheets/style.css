@@ -1,0 +1,59 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: navy;
+}
+
+hr {
+    height: 1px;
+    background: #333;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+form.form-create-todo {
+	margin-top: 2em;
+}
+
+#todosNotCompleted {
+	padding: 1em;
+}
+
+#page-content {
+	margin-top: 1.5em;
+	background-color: white;
+	height: 95%;
+	border-radius:10px;
+}
+
+header {
+	margin-top: 1.2em;
+	margin-bottom: 1.5em;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header h1 span.label {
+	font-size: 0.5em;
+	vertical-align: middle;
+	margin-top: -0.5em;
+	display: inline-block;
+}
+
+.todo-title {
+	font-weight: bold;
+}
+
+.todo-body {
+	color: grey;
+}
+
+.todo-group {
+	margin-bottom: 1em;
+}
