@@ -35,7 +35,7 @@ form.form-create-todo {
 #page-content {
 	margin-top: 1.5em;
 	background-color: white;
-	height: 95%;
+	min-height: 95%;
 	border-radius:10px;
 }
 
