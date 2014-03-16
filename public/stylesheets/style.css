@@ -15,6 +15,10 @@ h3 {
 	font-size: 1.4em;
 }
 
+div.todos-notcompleted div.todo-title, div.todos-notcompleted div.todo-description {
+	font-size: 1.3em;
+}
+
 form.form-create-todo {
 	margin-top: 2em;
 }
@@ -50,7 +54,7 @@ header h1 span.label {
 	font-weight: bold;
 }
 
-.todo-body {
+.todo-description {
 	color: grey;
 }
 
