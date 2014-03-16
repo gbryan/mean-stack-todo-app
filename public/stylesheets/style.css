@@ -20,6 +20,18 @@ div.todos-notcompleted div.todo-title, div.todos-notcompleted div.todo-descripti
 	font-size: 1.3em;
 }
 
+div.todos-completed {
+	margin: 0 1em;
+}
+
+div.todo-title {
+	margin-left: 8px;
+}
+
+div.todo-description {
+	margin-left: 20px;
+}
+
 form.form-create-todo {
 	margin-top: 2em;
 }
@@ -30,6 +42,10 @@ form.form-create-todo {
 
 #todosCompleted {
 	margin-top: 1em;
+}
+
+input.toggle-completed {
+	float: left;
 }
 
 #page-content {
