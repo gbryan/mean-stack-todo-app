@@ -9,6 +9,7 @@ body {
 hr {
     height: 1px;
     background: #333;
+    margin: 10px 0 10px 0;
 }
 
 h3 {
@@ -27,6 +28,10 @@ form.form-create-todo {
 	padding: 1em;
 }
 
+#todosCompleted {
+	margin-top: 1em;
+}
+
 #page-content {
 	margin-top: 1.5em;
 	background-color: white;
@@ -36,7 +41,10 @@ form.form-create-todo {
 
 header {
 	margin-top: 1.2em;
-	margin-bottom: 1.5em;
+}
+
+.well {
+	background-color: aliceblue;
 }
 
 header h1 {

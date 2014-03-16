@@ -18,20 +18,22 @@
 		</header>
 		<hr>
 		<div id="todosNotCompleted" class="row">
-			<div class="todos-notcompleted" ng-repeat="todo in todos | filter: { completed: false }">
-				<div class="todo-group">
-					<div class="row">
-						<div class="col-xs-1">
-							<input type="checkbox" ng-model="todo.completed" ng-click="complete(todo._id)" />
+			<div class="todos-notcompleted well">
+				<div ng-repeat="todo in todos | filter: { completed: false }">
+					<div class="todo-group">
+						<div class="row">
+							<div class="col-xs-1">
+								<input type="checkbox" ng-model="todo.completed" ng-click="complete(todo._id)" />
+							</div>
+							<div class="col-xs-11 todo-title">{{ todo.title }}</div>
 						</div>
-						<div class="col-xs-11 todo-title">{{ todo.title }}</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-11 col-xs-offset-1 todo-description">{{ todo.description }}</div>
+						<div class="row">
+							<div class="col-xs-11 col-xs-offset-1 todo-description">{{ todo.description }}</div>
+						</div>
 					</div>
 				</div>
 			</div><!--end repeated items-->
-			<form class="form-horizontal form-create-todo well" role="form">
+			<form class="form-horizontal form-create-todo" role="form">
 				<h3>Create a new task</h3>
 				<div class="form-group">
 					<label for="todoTitle" class="col-xs-3 control-label">Title</label>
@@ -45,7 +47,7 @@
 						<textarea placeholder="Optional" class="form-control" id="todoDescription" ng-model="formData.description"></textarea>
 					</div>
 				</div>
-				<button class="btn" ng-click="create()">Add</button>
+				<button class="btn pull-right" ng-click="create()">Add</button>
 			</form>
 		</div>
 		<div id="todosCompleted" class="row">
